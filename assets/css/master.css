@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #27474e;
+  background-color: #001f3f;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,12 +17,12 @@ main {
   height: 100vh;
 }
 
-.title {
+.generator {
   display: flex;
   align-items: center;
 }
 
-.title i {
+.generator i {
   padding-right: 10px;
   animation-name: icona;
   animation-duration: 1s;
@@ -32,11 +32,19 @@ main {
 @keyframes icona {
   0% {
     transform: scale(1.3);
-    color: lightgrey;
+    color: #f92e56;
   }
 }
 
-h2 {
+h3 {
   color: black;
-  padding: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 0px 10px;
+}
+
+h3:hover {
+  color: #f92e56;
+  cursor: pointer;
 }
