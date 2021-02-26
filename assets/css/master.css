@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title i {
+  padding-right: 10px;
+}
+
+h2 {
+  color: red;
+  padding: 0 10px;
+}
