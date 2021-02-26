@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: black;
+  background-color: #27474e;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -23,9 +24,19 @@ main {
 
 .title i {
   padding-right: 10px;
+  animation-name: icona;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes icona {
+  0% {
+    transform: scale(1.3);
+    color: lightgrey;
+  }
 }
 
 h2 {
-  color: red;
+  color: black;
   padding: 0 10px;
 }
